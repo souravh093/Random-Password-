@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1b2531;
+}
+
+main {
+    background-color: #1F2937;
+    width: 50%;
+    margin: auto;
+    padding: 70px 50px;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.color-text {
+    color: #10B981;
+}
+
+.gap {
+    margin-bottom: 0.35em;
+}
+
+button {
+    margin: 2.5em 0 1.8em 0;
+    padding: 0.75em;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #10B981;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0ea371;
+}
+
+hr {
+    border: 1px solid #2e3a49;
+}
+
+.generator {
+    display: flex;
+    margin-top: 2em;
+    gap: 1.7em;
+}
+
+.generator .passwordCook1 {
+    width: 11em;
+    height: 2em;
+    background-color: #2e3a49;
+    border-radius: 0.25em;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.generator .passwordCook2 {
+    width: 11em;
+    height: 2em;
+    background-color: #2e3a49;
+    border-radius: 0.25em;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.generator .passwordCook2:hover{
+    background-color: #314052;
+}
+
+.generator .passwordCook1:hover{
+    background-color: #314052;
+}
